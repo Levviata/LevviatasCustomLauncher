@@ -7,7 +7,7 @@ This is a custom launcher that I made to aid me in downloading external mods wit
 
 Here's an example of how you can use the program from the command line:
 
-> java CustomLauncher path=/your/output/path 1234+exampleFile.jar
+> java -jar LevviatasLauncher-0.8.0.jar path=/your/output/path 1234+exampleFile.jar
 
 In this example:
 
@@ -16,3 +16,7 @@ In this example:
 - You can run the program with different combinations of output paths and ID+filename pairs to download files accordingly.
 
 If no path was specified the program will just save the file on the same path it was run in.
+
+Working examples:
+
+> java -jar LevviatasLauncher-0.8.0.jar path=C:\Users\YourUser\Desktop 3807586+Incorporeal-3-fabric-1.18.2-2-SNAPSHOT-894c974c.jar
